@@ -1,3 +1,9 @@
+import { PortfolioCardContainer } from "../components/Portfolio/PortfolioCardContainer";
+
 export const Portfolio = () => {
-  return <div>My Projects</div>;
+  return (
+    <div>
+      <PortfolioCardContainer />
+    </div>
+  );
 };
