@@ -5,12 +5,16 @@ import { ContactMe } from "./containers/ContactMe";
 
 import { Footer } from "./components/Footer";
 
+import { Banner } from "./components/Banner";
+
 export const App = () => {
   return (
     <div>
       <Home />
       <Portfolio />
+      <Banner />
       <AboutMe />
+      <Banner />
       <ContactMe />
       <Footer />
     </div>
