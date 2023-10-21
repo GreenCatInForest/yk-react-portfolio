@@ -2,10 +2,14 @@
 
 ## Key Features
 
-In the project directory, you can run:
+Here I'll list all the features.
 
 ### Wireframes
 
 Here is a link to my wireframes: <https://miro.com/app/board/uXjVNYQiAP0=/?share_link_id=779136669860>
 
-## Learn More
+#### Tech Stack
+
+#### User Story
+
+##### Screenshots
