@@ -1,4 +1,5 @@
 import { ContactForm } from "../components/ContactForm";
+import { RatingForm } from "../components/RatingForm";
 
 export const ContactMe = () => {
   return (
@@ -12,6 +13,8 @@ export const ContactMe = () => {
       <p>phone number</p>
       <img alt="icon mail"></img>
       <p>mail address</p>
+      <h3>Rate my portfolio:</h3>
+      <RatingForm />
     </div>
   );
 };
