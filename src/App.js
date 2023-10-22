@@ -1,5 +1,5 @@
 import { Home } from "./containers/Home";
-import { Portfolio } from "./containers/Portfolio";
+import { Projects } from "./containers/Projects";
 import { AboutMe } from "./containers/AboutMe";
 import { ContactMe } from "./containers/ContactMe";
 
@@ -11,7 +11,7 @@ export const App = () => {
   return (
     <div>
       <Home />
-      <Portfolio />
+      <Projects />
       <Banner />
       <AboutMe />
       <Banner />
