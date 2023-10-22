@@ -1,4 +1,5 @@
 import bioImg from "../assets/images/logo192.png";
+import { SocialMedia } from "./SocialMedia";
 
 export const Hero = () => {
   return (
@@ -8,6 +9,7 @@ export const Hero = () => {
       </h1>
       <h2>JUNIOR FRONTEND DEVELOPER</h2>
       <img src={bioImg} alt="my portrait" />
+      <SocialMedia />
     </div>
   );
 };
