@@ -2,7 +2,7 @@ import { ProjectCardContainer } from "../components/Projects/ProjectCardContaine
 
 export const Projects = () => {
   return (
-    <div>
+    <div id="projects">
       <h2>My Projects</h2>
       <ProjectCardContainer />
     </div>
