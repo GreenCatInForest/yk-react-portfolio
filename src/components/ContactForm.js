@@ -2,19 +2,19 @@ export const ContactForm = () => {
   return (
     <div>
       <form action="" method="get">
-        <label for="name">Name</label>
+        <label htmlFor="name">Name</label>
         <input type="text" name="name" id="name" required />
 
-        <label for="company">Company</label>
+        <label htmlFor="company">Company</label>
         <input type="text" name="company" id="company" />
 
-        <label for="mail">E-mail</label>
+        <label htmlFor="mail">E-mail</label>
         <input type="email" name="email" id="email" />
 
-        <label for="tel">Phone</label>
+        <label htmlFor="tel">Phone</label>
         <input type="tel" name="tel" id="tel" />
 
-        <label for="subject">Choose a subject:</label>
+        <label htmlFor="subject">Choose a subject:</label>
         <select id="subject" name="subject">
           <option value="hire">Hire</option>
           <option value="watch">Watch my portfolio</option>
@@ -23,7 +23,7 @@ export const ContactForm = () => {
           <option value="other">Something else</option>
         </select>
 
-        <label for="message">Your message</label>
+        <label htmlFor="message">Your message</label>
         <textarea
           name="message"
           id="message"
