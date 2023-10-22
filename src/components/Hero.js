@@ -9,6 +9,8 @@ export const Hero = () => {
       </h1>
       <h2>JUNIOR FRONTEND DEVELOPER</h2>
       <img src={bioImg} alt="my portrait" />
+      <button>Button</button>
+      <button>Button</button>
       <SocialMedia />
     </div>
   );
