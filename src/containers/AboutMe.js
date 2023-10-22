@@ -1,12 +1,12 @@
 import { Bio } from "../components/Bio";
-import { TechSteck } from "../components/TechSteck";
+import { TechStack } from "../components/TechStack";
 
 export const AboutMe = () => {
   return (
     <div id="about">
       <h2>About Me</h2>
       <Bio />
-      <TechSteck />
+      <TechStack />
     </div>
   );
 };
