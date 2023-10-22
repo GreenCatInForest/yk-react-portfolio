@@ -14,6 +14,15 @@ export const ContactForm = () => {
         <label for="tel">Phone</label>
         <input type="tel" name="tel" id="tel" />
 
+        <label for="subject">Choose a subject:</label>
+        <select id="subject" name="subject">
+          <option value="hire">Hire</option>
+          <option value="watch">Watch my portfolio</option>
+          <option value="freelance">Freelance project</option>
+          <option value="freelance">Ask me to volunteer</option>
+          <option value="other">Something else</option>
+        </select>
+
         <label for="message">Your message</label>
         <textarea
           name="message"
