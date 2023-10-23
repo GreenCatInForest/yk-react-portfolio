@@ -2,11 +2,16 @@ export const Header = () => {
   return (
     <div
       id="header"
-      className="flex flex-col justify-center align-middle sm:flex-row"
+      className="flex flex-col sm:flex-row justify-around align-middle items-center m-6"
+
+      // justify-center align-middle
     >
-      <h1 className="text-3xl font-bold">YK</h1>
+      <h1 id="headerTitle" className="text-3xl font-bold">
+        YK
+      </h1>
+
       <nav id="headerNav">
-        <ul>
+        <ul className="flex flex-col sm:flex-row space-x-8 cursor-pointer">
           <li>
             <a href="#home">Home</a>
           </li>

@@ -9,7 +9,7 @@ import { Banner } from "./components/Banner";
 
 export const App = () => {
   return (
-    <div className="flex flex-col items-center align-middle justify-center text-center gap-10 sm:gap-12">
+    <div className="w-screen flex flex-col gap-10 sm:gap-12">
       <Home />
       <Projects />
       <Banner />
