@@ -16,6 +16,9 @@ export const App = () => {
       </h2>
       <Projects />
       <Banner />
+      <h2 className="shadow-xl py-2 px-60 text-lg text-center font-medium">
+        About Me
+      </h2>
       <AboutMe />
       <Banner />
       <ContactMe />
