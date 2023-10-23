@@ -1,14 +1,14 @@
-// import imageSrc from "../assets/images/logo192.png";
+import imageSrc from "../assets/images/lucas-george-wendt-8ZGgg6rhzxs-unsplash.jpg";
 
 export const Banner = () => {
   return (
-    <div>
+    <div className=" w-full">
       <img
         title="banner"
-        // src={imageSrc}
+        src={imageSrc}
         alt="large banner"
-        width="20%"
-      ></img>
+        className="object-cover object-center bg-emerald-600 w-full h-60"
+      />
     </div>
   );
 };
