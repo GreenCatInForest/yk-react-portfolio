@@ -2,17 +2,7 @@ import { ProjectCardContainer } from "../components/Projects/ProjectCardContaine
 
 export const Projects = () => {
   return (
-    <div
-      id="projects"
-      className="
-      flex
-      flex-col
-      align-middle
-      items-center
-      text-center
-      sm:flex-row
-      justify-around"
-    >
+    <div id="projects">
       <ProjectCardContainer />
     </div>
   );
