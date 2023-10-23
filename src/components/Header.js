@@ -2,7 +2,7 @@ export const Header = () => {
   return (
     <div
       id="header"
-      className="flex flex-col align-middle items-center sm:flex-row justify-around m-6"
+      className="w-screen flex flex-col align-middle items-center sm:flex-row justify-around m-6 shadow-xl"
 
       //
     >
