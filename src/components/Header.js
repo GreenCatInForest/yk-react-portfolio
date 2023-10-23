@@ -1,7 +1,10 @@
 export const Header = () => {
   return (
-    <div id="header">
-      <h1>YK</h1>
+    <div
+      id="header"
+      className="flex flex-col justify-center align-middle sm:flex-row"
+    >
+      <h1 className="text-3xl font-bold">YK</h1>
       <nav id="headerNav">
         <ul>
           <li>
