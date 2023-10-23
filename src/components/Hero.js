@@ -1,4 +1,4 @@
-import bioImg from "../assets/images/Untitled3.png";
+import bioImg from "../assets/images/SmartBlur.png";
 import { SocialMedia } from "./SocialMedia";
 
 export const Hero = () => {
