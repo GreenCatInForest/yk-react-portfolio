@@ -12,12 +12,8 @@ export const Hero = () => {
           Hello, I'm <span className="text-4xl font-bold">YANA</span>
         </h1>
         <h2>Junior Frontend Developer</h2>
-        <button className="bg-orange-600 hover:bg-orange-400 text-white border border-orange-700 w-40 h-10 rounded-full m-1">
-          Projects
-        </button>
-        <button className="bg-orange-400 hover:bg-orange-600 text-white border border-orange-700 w-40 h-10 rounded-full m-1">
-          CV
-        </button>
+        <button className="btn-orange">Projects</button>
+        <button className="btn-orange">CV</button>
         <SocialMedia />
       </article>
       <img src={bioImg} alt="my large avatar" className="w-2/5" />

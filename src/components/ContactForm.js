@@ -61,10 +61,7 @@ export const ContactForm = () => {
           cols="40"
           required
         ></textarea>
-        <button
-          type="submit"
-          className="bg-orange-600 hover:bg-orange-400 text-white border border-orange-700 w-40 h-10 rounded-full"
-        >
+        <button type="submit" className="btn-orange">
           Submit
         </button>
       </form>
