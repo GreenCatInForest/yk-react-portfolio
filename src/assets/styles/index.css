@@ -2,9 +2,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-@layer components {
-  /* Hero */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+@layer components {
   /* Buttons */
 
   .btn-orange {
