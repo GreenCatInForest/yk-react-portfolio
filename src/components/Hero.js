@@ -16,7 +16,11 @@ export const Hero = () => {
         <button className="btn-orange">CV</button>
         <SocialMedia />
       </article>
-      <img src={bioImg} alt="my large avatar" className="w-2/5" />
+      <img
+        src={bioImg}
+        alt="my large avatar"
+        className="w-2/5 shadow-xl shadow-orange-800"
+      />
     </div>
   );
 };
