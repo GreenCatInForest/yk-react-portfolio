@@ -9,8 +9,8 @@ export const Hero = () => {
       //   className=""
     >
       <article className="heroArticle">
-        <h1 className="text-3xl font-bold">
-          Hello, I'm <span className="text-4xl font-bold">YANA</span>
+        <h1 className="text-5xl font-bold">
+          Hello, I'm <span className="text-5xl font-bold">YANA</span>
         </h1>
         <h2>Junior Frontend Developer</h2>
         <button className="btn-orange">Projects</button>

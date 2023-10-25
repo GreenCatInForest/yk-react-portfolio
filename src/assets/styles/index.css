@@ -70,6 +70,7 @@
     flex-col 
     sm:flex-row
     justify-center
+    gap-10
     w-11/12 
     align-middle 
     items-center 
@@ -81,7 +82,7 @@
   }
 
   .heroImage {
-    @apply w-1/4 shadow-xl shadow-orange-800;
+    @apply w-1/2 sm:w-1/4 shadow-xl shadow-orange-800;
   }
 
   /* Projects */
@@ -160,7 +161,8 @@
     items-center
     sm:flex-row
     justify-around
-    gap-32;
+    gap-8
+    sm:gap-32;
   }
 
   /* Buttons */
