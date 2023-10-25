@@ -153,6 +153,16 @@
   gap-6;
   }
 
+  .contactMeFeatures {
+    @apply flex
+    flex-col   
+    align-middle
+    items-center
+    sm:flex-row
+    justify-around
+    gap-32;
+  }
+
   /* Buttons */
 
   .btn-orange {
