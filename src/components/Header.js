@@ -6,7 +6,7 @@ export const Header = () => {
       </h1>
 
       <nav id="headerNav">
-        <ul className="headerNavContainer flex flex-col sm:flex-row space-x-0 sm:space-x-3 cursor-pointer text-center m-6">
+        <ul className="headerNavContainer">
           <li className="headerNavLink">
             <a href="#home">Home</a>
           </li>
@@ -20,7 +20,7 @@ export const Header = () => {
             <a href="#contact">Contact</a>
           </li>
           <li>
-            <button>
+            <button className="btn-orange">
               <a href="#downloadCv">Download CV</a>
             </button>
           </li>

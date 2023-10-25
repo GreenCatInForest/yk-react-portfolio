@@ -41,18 +41,42 @@
     align-middle 
     items-center 
     sm:flex-row 
-    justify-center 
+    justify-evenly
     gap-0 
     sm:gap-12
     shadow-xl;
+  }
+
+  ul.headerNavContainer {
+    @apply flex 
+    flex-col 
+    sm:flex-row 
+    align-middle
+    justify-evenly
+    items-center
+    space-x-0 
+    sm:space-x-3 
+    cursor-pointer 
+    text-center 
+    m-6;
   }
 
   /* Nav Menu Links*/
 
   ul.headerNavContainer > li {
     @apply border-b-4 border-white border-opacity-0
-    hover:border-orange-500
+    hover:border-orange-500 
     transition-all ease-in-out duration-700;
+  }
+
+  ul.headerNavContainer > li:last-of-type {
+    @apply bg-orange-600 
+    hover:bg-orange-400
+     text-white border
+      border-orange-700 
+      w-40 
+      h-10 
+      rounded-full;
   }
 
   /* Pages */
