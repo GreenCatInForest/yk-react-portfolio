@@ -5,7 +5,7 @@ import wtspImg from "../assets/images/social/icons8-whatsapp-30.png";
 
 export const SocialMedia = () => {
   return (
-    <div className="flex flex-row gap-2">
+    <div className="socialMedia">
       <a href="#">
         <img src={fbImg} alt="logo facebook" />
       </a>

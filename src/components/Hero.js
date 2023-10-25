@@ -4,10 +4,13 @@ import { SocialMedia } from "./SocialMedia";
 export const Hero = () => {
   return (
     <div
-      id="hero"
-      className="w-11/12 flex flex-col align-middle items-center sm:items-center text-center sm:flex-row"
+      className="containerComponent hero"
+      //   id="hero"
+      //   className=""
     >
-      <article className="w-3/5 flex flex-col align-middle items-center text-center gap-3 mt-40">
+      <article
+      // className="w-3/5 flex flex-col align-middle items-center text-center gap-3 mt-40"
+      >
         <h1 className="text-3xl font-bold">
           Hello, I'm <span className="text-4xl font-bold">YANA</span>
         </h1>

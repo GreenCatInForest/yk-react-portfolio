@@ -4,6 +4,31 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+@layer base {
+  /* App  */
+
+  .appContainer {
+    @apply w-screen 
+      flex 
+      flex-col 
+      items-center 
+      justify-center  
+      gap-10 
+      sm:gap-12
+      font-poppins;
+  }
+
+  /* div.appContainer > * {
+    @apply bg-pink-400;
+  } */
+
+  /* All Components Centred  */
+
+  .containerComponent {
+    @apply mt-0 sm:mt-32;
+  }
+}
+
 @layer components {
   /* Nav */
 
@@ -16,7 +41,9 @@
     align-middle 
     items-center 
     sm:flex-row 
-    justify-around 
+    justify-center 
+    gap-0 
+    sm:gap-12
     shadow-xl;
   }
 
@@ -28,7 +55,21 @@
     transition-all ease-in-out duration-700;
   }
 
+  /* Pages */
+
   /* Containers */
+
+  .containerHome {
+    @apply mt-0 sm:mt-32;
+  }
+  /* Hero */
+
+  .hero {
+    @apply flex
+    flex-col 
+    sm:flex-row
+    justify-around w-11/12 align-middle items-center sm:items-center text-center;
+  }
 
   .containerTitleH2 {
     @apply py-2 
@@ -49,5 +90,11 @@
       w-40 
       h-10 
       rounded-full;
+  }
+
+  /* Social Media */
+
+  .socialMedia {
+    @apply flex flex-row gap-2;
   }
 }
