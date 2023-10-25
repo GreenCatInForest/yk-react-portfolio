@@ -3,6 +3,8 @@ import { ProjectCardContainer } from "../components/Projects/ProjectCardContaine
 export const Projects = () => {
   return (
     <div id="projects">
+      <h2 className="containerTitleH2">My Projects</h2>
+      {/* <h3>Here is the project showcast</h3> */}
       <ProjectCardContainer />
     </div>
   );
