@@ -57,7 +57,7 @@
 
   /* Pages */
 
-  /* Containers */
+  /* Container Home */
 
   .containerHome {
     @apply mt-0 sm:mt-32;
@@ -84,14 +84,52 @@
     @apply w-1/4 shadow-xl shadow-orange-800;
   }
 
-  .containerTitleH2 {
+  /* Projects */
+
+  /* Container Projects */
+
+  .containerProjects {
+    @apply w-9/12 
+    flex
+    flex-col
+    align-middle
+    items-center
+    gap-3;
+  }
+
+  .projectCardContainer {
+    @apply flex
+    flex-col
+    align-middle
+    items-center
+    text-center
+    my-4
+    sm:flex-row
+    flex-wrap
+    justify-around
+    gap-8;
+  }
+
+  .projectCard {
+    @apply p-4
+    shadow-2xl;
+  }
+
+  .btn-projectCardContainer {
+    @apply flex
+    flex-row
+    justify-center
+    gap-2;
+  }
+
+  /* .containerTitleH2 {
     @apply py-2 
     px-60 
     text-lg 
     text-center 
     font-medium
     shadow-xl;
-  }
+  } */
 
   /* Buttons */
 
@@ -103,6 +141,12 @@
       w-40 
       h-10 
       rounded-full;
+  }
+
+  .btn-projectCard {
+    @apply mx-1
+    p-1
+    border border-solid border-black;
   }
 
   /* Social Media */
