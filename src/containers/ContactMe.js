@@ -5,7 +5,8 @@ export const ContactMe = () => {
   return (
     <div
       id="contact"
-      // className="flex flex-col text-center items-center gap-10 sm:gap-12"
+      className="containerContactMe"
+      // className=""
     >
       <h2 className="containerTitleH2">Contact Me!</h2>
       <h3 className="text-4xl font-bold">Let's work together!</h3>

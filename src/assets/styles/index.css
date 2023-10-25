@@ -122,6 +122,17 @@
     gap-2;
   }
 
+  /* Container About Me */
+
+  .containerAboutMe {
+    @apply w-9/12 
+    flex
+    flex-col
+    align-middle
+    items-center
+    gap-3;
+  }
+
   /* .containerTitleH2 {
     @apply py-2 
     px-60 
@@ -130,6 +141,17 @@
     font-medium
     shadow-xl;
   } */
+
+  /* Container Contact Me */
+
+  .containerContactMe {
+    @apply w-9/12 
+  flex
+  flex-col
+  align-middle
+  items-center
+  gap-6;
+  }
 
   /* Buttons */
 
