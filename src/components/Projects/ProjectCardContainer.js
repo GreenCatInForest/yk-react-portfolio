@@ -22,7 +22,7 @@ let projectDatas = [
   },
   {
     projectBannerImg: "",
-    projectTitle: "Title",
+    projectTitle: "Title1",
     projectSubTitle: "SubTitle",
     projectDescription:
       "App created to show an example of using Function and Class Components and a useState hook in React",
