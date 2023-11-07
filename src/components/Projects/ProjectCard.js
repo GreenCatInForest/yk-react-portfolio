@@ -4,9 +4,9 @@ export const ProjectCard = (props) => {
   return (
     <div className="projectCard">
       {/* <img src={props.projectBannerImg} alt={props.projectTitle} /> */}
-      <h2>{props.projectTitle}</h2>
-      <h3>{props.projectSubTitle}</h3>
-      {/* <h4>{props.projectDescription}</h4> */}
+      <h2 className="projectTitle">{props.projectTitle}</h2>
+      <h3 className="projectSubTitle">{props.projectSubTitle}</h3>
+      <h4 className="projectDescription">{props.projectDescription}</h4>
       <div className="btn-projectCardContainer">
         <button className="btn-orange">
           <a href={props.projectDeployUrl}>Wiev</a>
