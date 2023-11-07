@@ -5,7 +5,8 @@ let projectDatas = [
     projectBannerImg:
       "../assets/images/lucas-george-wendt-8ZGgg6rhzxs-unsplash.jpg",
     projectTitle: "Counter App",
-    projectSubTitle: "Increment, Reset, Decrement the value",
+    projectSubTitle:
+      "This interactive app allows the user to increment, reset and decrement counter values",
     projectDescription:
       "App created to show an example of using Function and Class Components and a useState hook in React",
     projectDeployUrl: "https://counter-app-react-sigma.vercel.app/",
@@ -13,12 +14,13 @@ let projectDatas = [
   },
   {
     projectBannerImg: "",
-    projectTitle: "Title",
-    projectSubTitle: "SubTitle",
+    projectTitle: "Happy & Healthy Recipes",
+    projectSubTitle:
+      "Recipe Search App. Make your own collection of recipes with calories and nutrition value.",
     projectDescription:
-      "App created to show an example of using Function and Class Components and a useState hook in React",
-    projectDeployUrl: "https://counter-app-react-sigma.vercel.app/",
-    projectGitUrl: "https://github.com/GreenCatInForest/counter-app",
+      "Interactive app for people to search for an ingredient and choose recipies they can save and come back later.",
+    projectDeployUrl: "https://recipe-search-app-lovat.vercel.app/",
+    projectGitUrl: "https://github.com/GreenCatInForest/recipe-search-app",
   },
   {
     projectBannerImg: "",

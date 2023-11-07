@@ -148,6 +148,7 @@
   .projectCard {
     @apply grid 
     grid-flow-row-dense
+    h-96
     text-center
     align-middle
     items-center
