@@ -2,6 +2,8 @@
 
 The showcase of my JS, React.JS, Tailwind, MUI, Bootstrap, HTML, CSS skills. 
 
+Please click here to view [deployed App URL](https://yk-react-portfolio-jefv3pjws-greencatinforest.vercel.app/).
+
 ## Key Features
 
 ## Wireframes
@@ -9,6 +11,12 @@ The showcase of my JS, React.JS, Tailwind, MUI, Bootstrap, HTML, CSS skills.
 Here is a link to my wireframes: <https://miro.com/app/board/uXjVNYQiAP0=/?share_link_id=779136669860>
 
 ## Tech Stack
+
+This project implements a variety of technologies:
+
+> JavaScript
+> React.JS
+> Tailwind
 
 ## User Story
 
