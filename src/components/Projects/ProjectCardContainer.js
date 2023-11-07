@@ -2,8 +2,7 @@ import { ProjectCard } from "./ProjectCard";
 
 let projectDatas = [
   {
-    projectBannerImg:
-      "../assets/images/lucas-george-wendt-8ZGgg6rhzxs-unsplash.jpg",
+    projectBannerImg: "",
     projectTitle: "Counter App",
     projectSubTitle:
       "This interactive app allows the user to increment, reset and decrement counter values",
@@ -24,10 +23,9 @@ let projectDatas = [
   },
   {
     projectBannerImg: "",
-    projectTitle: "Title1",
-    projectSubTitle: "SubTitle",
-    projectDescription:
-      "App created to show an example of using Function and Class Components and a useState hook in React",
+    projectTitle: "",
+    projectSubTitle: "",
+    projectDescription: "",
     projectDeployUrl: "https://counter-app-react-sigma.vercel.app/",
     projectGitUrl: "https://github.com/GreenCatInForest/counter-app",
   },
@@ -42,9 +40,10 @@ export const ProjectCardContainer = () => {
   return (
     <div className="projectCardContainer">
       {projectDatas.map((projectData) => {
-        return (
+        //  conditional render for projectCardTitle
+        return projectData.projectTitle ? (
           <ProjectCard
-            // projectBannerImg={projectData.projectBannerImg}
+            projectBannerImg={projectData.projectBannerImg}
             projectTitle={projectData.projectTitle}
             projectSubTitle={projectData.projectSubTitle}
             projectDescription={projectData.projectDescription}
@@ -52,7 +51,7 @@ export const ProjectCardContainer = () => {
             projectGitUrl={projectData.projectGitUrl}
             key={projectData.projectTitle}
           />
-        );
+        ) : null;
       })}
     </div>
   );
