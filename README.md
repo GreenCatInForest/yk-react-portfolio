@@ -2,7 +2,7 @@
 
 The showcase of my JS, React.JS, Tailwind, MUI, Bootstrap, HTML, CSS skills. 
 
-Please click here to view [deployed App URL](https://yk-react-portfolio-jefv3pjws-greencatinforest.vercel.app/).
+Please click here to view [deployed App URL](https://yk-react-portfolio.vercel.app/).
 
 ## Key Features
 
