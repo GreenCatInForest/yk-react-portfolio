@@ -8,16 +8,22 @@ Please click here to view [deployed App URL](https://yk-react-portfolio-jefv3pjw
 
 ## Wireframes
 
-Here is a link to my wireframes: <https://miro.com/app/board/uXjVNYQiAP0=/?share_link_id=779136669860>
+Here is a link to my [wireframes](https://miro.com/app/board/uXjVNYQiAP0=/?share_link_id=779136669860).
 
-## Tech Stack
+## Technologies & Frameworks
 
 This project implements a variety of technologies:
 
-> JavaScript
-> React.JS
-> Tailwind
+- JavaScript
 
+- React.JS
+
+- Tailwind
+
+- Miro
+
+- Git
+  
 ## User Story
 
 ## Screenshots
