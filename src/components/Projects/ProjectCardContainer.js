@@ -3,16 +3,6 @@ import { ProjectCard } from "./ProjectCard";
 let projectDatas = [
   {
     projectBannerImg: "",
-    projectTitle: "Counter App",
-    projectSubTitle:
-      "This interactive app allows the user to increment, reset and decrement counter values",
-    projectDescription:
-      "App created to show an example of using Function and Class Components and a useState hook in React",
-    projectDeployUrl: "https://counter-app-react-sigma.vercel.app/",
-    projectGitUrl: "https://github.com/GreenCatInForest/counter-app",
-  },
-  {
-    projectBannerImg: "",
     projectTitle: "Happy & Healthy Recipes",
     projectSubTitle:
       "Recipe Search App. Make your own collection of recipes with calories and nutrition value.",
@@ -23,11 +13,23 @@ let projectDatas = [
   },
   {
     projectBannerImg: "",
-    projectTitle: "",
-    projectSubTitle: "",
-    projectDescription: "",
+    projectTitle: "Counter App",
+    projectSubTitle:
+      "This interactive app allows the user to increment, reset and decrement counter values",
+    projectDescription:
+      "App created to show an example of using Function and Class Components and a useState hook in React",
     projectDeployUrl: "https://counter-app-react-sigma.vercel.app/",
     projectGitUrl: "https://github.com/GreenCatInForest/counter-app",
+  },
+  {
+    projectBannerImg: "",
+    projectTitle: "Word Counter App",
+    projectSubTitle:
+      "The app allows to count the number of words in a given snippet of text",
+    projectDescription:
+      "The user can type or insert a text and the word counter updates dynamically based on the number of words in the textarea",
+    projectDeployUrl: "https://word-counter-app-omega.vercel.app",
+    projectGitUrl: "https://github.com/GreenCatInForest/word-counter-app",
   },
   {},
 ];
