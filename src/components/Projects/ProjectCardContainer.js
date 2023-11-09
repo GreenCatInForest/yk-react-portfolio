@@ -1,8 +1,11 @@
 import { ProjectCard } from "./ProjectCard";
+import happyRecipesProjectBannerImg from "../../assets/images/projectBannerImg/happyHealthyRecipesCardBanner.png";
+import wordCounterProjectBannerImg from "../../assets/images/projectBannerImg/wordCounterCardBanner.png";
+import counterProjectBannerImg from "../../assets/images/projectBannerImg/counterCardBanner.png";
 
 let projectDatas = [
   {
-    projectBannerImg: "",
+    projectBannerImg: happyRecipesProjectBannerImg,
     projectTitle: "Happy & Healthy Recipes",
     projectSubTitle:
       "Recipe Search App. Make your own collection of recipes with calories and nutrition value.",
@@ -12,7 +15,7 @@ let projectDatas = [
     projectGitUrl: "https://github.com/GreenCatInForest/recipe-search-app",
   },
   {
-    projectBannerImg: "",
+    projectBannerImg: counterProjectBannerImg,
     projectTitle: "Counter App",
     projectSubTitle:
       "This interactive app allows the user to increment, reset and decrement counter values",
@@ -22,7 +25,7 @@ let projectDatas = [
     projectGitUrl: "https://github.com/GreenCatInForest/counter-app",
   },
   {
-    projectBannerImg: "",
+    projectBannerImg: wordCounterProjectBannerImg,
     projectTitle: "Word Counter App",
     projectSubTitle:
       "The app allows to count the number of words in a given snippet of text",

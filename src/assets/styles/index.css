@@ -148,7 +148,7 @@
   .projectCard {
     @apply grid 
     grid-flow-row-dense
-    h-96
+    h-full
     text-center
     align-middle
     items-center
@@ -157,6 +157,10 @@
     p-4
     shadow-2xl
     max-w-md;
+  }
+
+  .projectBannerImg {
+    @apply object-cover w-96;
   }
 
   .projectTitle {

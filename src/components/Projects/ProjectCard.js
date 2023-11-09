@@ -5,7 +5,11 @@ export const ProjectCard = (props) => {
     <div className="projectCard">
       {/* conditional render for banner img */}
       {props.projectBannerImg ? (
-        <img src={props.projectBannerImg} alt={props.projectTitle} />
+        <img
+          className="projectBannerImg"
+          src={props.projectBannerImg}
+          alt={props.projectTitle}
+        />
       ) : null}
       <h2 className="projectTitle">{props.projectTitle}</h2>
       <h3 className="projectSubTitle">{props.projectSubTitle}</h3>
