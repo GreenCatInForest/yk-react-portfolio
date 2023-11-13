@@ -2,6 +2,7 @@ import { ProjectCard } from "./ProjectCard";
 import happyRecipesProjectBannerImg from "../../assets/images/projectBannerImg/happyHealthyRecipesCardBanner.png";
 import wordCounterProjectBannerImg from "../../assets/images/projectBannerImg/wordCounterCardBanner.png";
 import counterProjectBannerImg from "../../assets/images/projectBannerImg/counterCardBanner.png";
+import loginAppProjectCardBannerImg from "../../assets/images/projectBannerImg/loginAppProjectCardBanner.png";
 
 let projectDatas = [
   {
@@ -33,6 +34,15 @@ let projectDatas = [
       "The user can type or insert a text and the word counter updates dynamically based on the number of words in the textarea",
     projectDeployUrl: "https://word-counter-app-omega.vercel.app",
     projectGitUrl: "https://github.com/GreenCatInForest/word-counter-app",
+  },
+  {
+    projectBannerImg: loginAppProjectCardBannerImg,
+    projectTitle: "Login App",
+    projectSubTitle: "The app allows user to login to the app with validation",
+    projectDescription:
+      "The user can type a login and a password, the generated page is dynamically updated. In case of error the app throws an alert",
+    projectDeployUrl: "https://login-app-khaki-sigma.vercel.app",
+    projectGitUrl: "https://github.com/GreenCatInForest/login-app",
   },
   {},
 ];
