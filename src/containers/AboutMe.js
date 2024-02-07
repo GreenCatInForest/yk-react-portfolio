@@ -7,8 +7,6 @@ export const AboutMe = () => {
       <h2 className="containerTitleH2">About Me</h2>
       <Bio />
       <TechStack />
-      <h3>Education</h3>
-      <h3>Testmonials</h3>
     </div>
   );
 };
