@@ -8,7 +8,7 @@ import MuiLogo from "../assets/images/tech/mui-logo.png";
 export const TechStack = () => {
   return (
     <div className="techStackComponent">
-      <h3>Technologies & Frameworks</h3>
+      <h3 className="text-2xl font-bold">Technologies & Frameworks</h3>
       <div className="techStackItems">
         <img src={JsLogo} alt="JS logo"></img>
         <img src={ReactLogo} alt="React logo" style={{ width: "48px" }}></img>

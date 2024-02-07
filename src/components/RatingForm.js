@@ -1,7 +1,7 @@
 export const RatingForm = () => {
   return (
-    <div>
-      <h3>Rate my portfolio:</h3>
+    <div className="ratePortfolio">
+      <h3 className="text-2xl font-bold">Rate my portfolio:</h3>
       <form>
         <label htmlFor="star5">☆</label>
         <input id="star5" name="star" type="radio" value="5" />
