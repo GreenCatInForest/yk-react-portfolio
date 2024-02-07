@@ -17,6 +17,7 @@ export const Header = () => {
         {" "}
         YK
       </h1>
+      <NavHumburgerMenu hamburgerMenuIsOpen={hamburgerMenuIsOpen} />
       <button
         onClick={toggleHamburgerMenu}
         id="toggleBtnMenu"
@@ -50,7 +51,6 @@ export const Header = () => {
 "
         ></div>
       </button>
-      <NavHumburgerMenu hamburgerMenuIsOpen={hamburgerMenuIsOpen} />
       <button className="btn-orange">
         <a href="#downloadCv">Download CV</a>
       </button>
