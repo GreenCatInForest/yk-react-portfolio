@@ -45,7 +45,6 @@
 
   .headerNav {
     @apply w-screen 
-    bg-white bg-opacity-100
     sm:fixed top-0
     flex 
     flex-col 
