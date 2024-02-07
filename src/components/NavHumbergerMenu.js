@@ -17,6 +17,11 @@ export const NavHumburgerMenu = ({ hamburgerMenuIsOpen }) => {
           <li>
             <a href="#contact">Contact</a>
           </li>
+          <li>
+            <button className="btn-orange">
+              <a href="#downloadCv">Download CV</a>
+            </button>
+          </li>
         </ul>
       </nav>
     );

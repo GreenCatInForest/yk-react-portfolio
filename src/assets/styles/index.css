@@ -70,16 +70,6 @@
     transition-all ease-in-out duration-700;
   }
 
-  ul.headerNavContainer > li:last-of-type {
-    @apply bg-orange-600 
-    hover:bg-orange-400
-     text-white border
-      border-orange-700 
-      w-40 
-      h-10 
-      rounded-full;
-  }
-
   /* Pages */
 
   /* Container Home */
