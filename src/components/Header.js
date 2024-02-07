@@ -14,10 +14,11 @@ export const Header = () => {
   return (
     <div id="header" className="headerNav">
       <h1 id="headerTitle" className="text-3xl font-bold">
-        {" "}
         YK
       </h1>
+
       <NavHumburgerMenu hamburgerMenuIsOpen={hamburgerMenuIsOpen} />
+
       <button
         onClick={toggleHamburgerMenu}
         id="toggleBtnMenu"
