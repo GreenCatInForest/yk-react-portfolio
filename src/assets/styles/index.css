@@ -253,11 +253,70 @@
 }
 
 @layer utilities {
-  .toggleBurgerMenu {
-    @apply [&>div::before]:translate-y-0 
-    [&>div::before]:rotate-45
-    [&>div::after]:translate-y-0 
-    [&>div::after]:-rotate-45
-    [&>div]:bg-transparent;
+  .hamburgerMenuOpen {
+    @apply bg-black w-8 h-1 rounded
+    absolute top-4 -mt-0.5
+    transition-all ease-in-out delay-100
+    duration-500
+    hover:bg-indigo-500
+    before:content-['']
+    before:bg-black
+    before:w-8
+    before:h-1
+    before:rounded
+    before:absolute
+    before:-translate-x-4
+    before:-translate-y-3
+    before:transition-all 
+    before:ease-in-out 
+    before:delay-100
+    before:duration-500
+    before:hover:bg-indigo-500;
+  }
+
+  .hamburgerMenuOpen::after {
+    @apply content-['']
+    bg-black
+    w-8
+    h-1
+    rounded
+    absolute
+    -translate-x-4
+    translate-y-3
+    transition-all ease-in-out delay-100
+    hover:bg-indigo-500;
+  }
+
+  .hamburgerMenuClose {
+    @apply bg-transparent
+    before:content-['']
+    before:bg-black
+    before:w-8
+    before:h-1
+    before:rounded
+    before:absolute
+    before:-translate-y-0
+    before:rotate-45
+    before:transition-all 
+    before:ease-in-out 
+    before:delay-100
+    before:duration-500
+    before:hover:bg-indigo-500;
+  }
+
+  .hamburgerMenuClose {
+    @apply bg-transparent
+    after:content-['']
+    after:bg-black
+    after:w-8
+    after:h-1
+    after:rounded
+    after:absolute
+    after:-translate-y-0
+    after:-rotate-45
+    after:transition 
+    after:ease-in-out 
+    after:duration-500
+    after:hover:bg-indigo-500;
   }
 }
