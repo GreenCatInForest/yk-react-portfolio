@@ -37,15 +37,14 @@ export const NavHumburgerMenu = ({
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <button
-              onClick={toggleHamburgerMenu}
-              className="text-3xl cursor-pointer relative w-8 h-8"
-            >
-              <div className="hamburgerMenuClose"></div>
-            </button>
-          </li>
+          <li></li>
         </ul>
+        <button
+          onClick={toggleHamburgerMenu}
+          className="text-3xl cursor-pointer relative w-8 h-8"
+        >
+          <div className="hamburgerMenuClose"></div>
+        </button>
       </nav>
     );
   } else if (hamburgerMenuIsOpen && darkMode) {

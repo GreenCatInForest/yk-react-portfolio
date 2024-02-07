@@ -5,8 +5,6 @@ export const Hero = () => {
   return (
     <div
       className="containerComponent hero"
-      //   id="hero"
-      //   className=""
     >
       <article className="heroArticle">
         <h1 className="text-5xl font-bold">
