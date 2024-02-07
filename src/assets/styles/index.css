@@ -9,14 +9,14 @@
   /* App  */
 
   .appContainer {
-    @apply w-screen 
-      flex 
-      flex-col 
-      items-center 
-      justify-center  
-      gap-10 
-      sm:gap-12
-      font-poppins;
+    @apply min-w-fit
+    max-w-fit
+    flex 
+    flex-col 
+    items-center 
+    justify-center  
+    font-poppins
+    m-0;
   }
 
   /* div.appContainer > * {
@@ -25,9 +25,9 @@
 
   /* All Components Centred  */
 
-  .containerComponent {
+  /* .containerComponent {
     @apply mt-0 sm:mt-32;
-  }
+  } */
 }
 
 @layer components {
