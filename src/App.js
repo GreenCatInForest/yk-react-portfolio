@@ -1,6 +1,6 @@
 import { Home } from "./containers/Home";
 import { Projects } from "./containers/Projects";
-import { AboutMe } from "./containers/AboutMe";
+import { TechStack } from "./components/TechStack";
 import { ContactMe } from "./containers/ContactMe";
 
 import { Footer } from "./components/Footer";
@@ -13,8 +13,7 @@ export const App = () => {
       <Home />
       <Projects />
       <Banner />
-      <AboutMe />
-      <Banner />
+      <TechStack />
       <ContactMe />
       <Footer />
     </div>
