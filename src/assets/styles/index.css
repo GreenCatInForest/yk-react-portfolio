@@ -266,6 +266,18 @@
 }
 
 @layer utilities {
+  .lightModeHumburgerMenu {
+    @apply bg-black
+    text-white;
+  }
+
+  .darkModeHumburgerMenu {
+    @apply bg-white
+    text-black;
+  }
+
+  /* hamburgerMenu Light Mode */
+
   .hamburgerMenuOpen {
     @apply bg-black w-8 h-1 rounded
     absolute top-4 -mt-0.5
@@ -319,6 +331,73 @@
     @apply bg-transparent
     after:content-['']
     after:bg-black
+    after:w-8
+    after:h-1
+    after:rounded
+    after:absolute
+    after:-translate-y-0
+    after:-rotate-45
+    after:transition 
+    after:ease-in-out 
+    after:duration-500
+    after:hover:bg-indigo-500;
+  }
+
+  /* hamburgerMenu Dark Mode */
+
+  .hamburgerMenuOpenDarkMode {
+    @apply bg-white w-8 h-1 rounded
+    absolute top-4 -mt-0.5
+    transition-all ease-in-out
+    duration-500
+    hover:bg-indigo-500
+    before:content-['']
+    before:bg-white
+    before:w-8
+    before:h-1
+    before:rounded
+    before:absolute
+    before:-translate-x-4
+    before:-translate-y-3
+    before:transition-all 
+    before:ease-in-out 
+    before:duration-500
+    before:hover:bg-indigo-500;
+  }
+
+  .hamburgerMenuOpenDarkMode::after {
+    @apply content-['']
+    bg-white
+    w-8
+    h-1
+    rounded
+    absolute
+    -translate-x-4
+    translate-y-3
+    transition-all ease-in-out
+    hover:bg-indigo-500;
+  }
+
+  .hamburgerMenuCloseDarkMode {
+    @apply bg-transparent
+    before:content-['']
+    before:bg-white
+    before:w-8
+    before:h-1
+    before:rounded
+    before:absolute
+    before:-translate-y-0
+    before:rotate-45
+    before:transition-all 
+    before:ease-in-out 
+    before:duration-500
+    before:hover:bg-indigo-500;
+  }
+
+  .hamburgerMenuCloseDarkMode {
+    @apply bg-transparent
+    after:content-['']
+    after:bg-white
     after:w-8
     after:h-1
     after:rounded

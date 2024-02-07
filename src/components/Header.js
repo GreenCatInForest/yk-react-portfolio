@@ -26,7 +26,10 @@ export const Header = ({ setDarkMode, darkMode }) => {
         YK
       </h1>
       <NavHumburgerMenu
-        className={`${darkMode ? "darkMode" : "lightMode"}`}
+        className={`${
+          darkMode ? "darkModeHumburgerMenu" : "lightModeHumburgerMenu"
+        }`}
+        darkMode={darkMode}
         toggleHamburgerMenu={toggleHamburgerMenu}
         hamburgerMenuIsOpen={hamburgerMenuIsOpen}
       />
