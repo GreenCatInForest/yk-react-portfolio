@@ -17,7 +17,6 @@ export const App = () => {
       <Header setDarkMode={setDarkMode} darkMode={darkMode} />
       <Hero />
       <Projects />
-      <Banner />
       <TechStack />
       <ContactMe />
       <Footer />
