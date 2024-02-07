@@ -184,12 +184,23 @@
     gap-2;
   }
 
-  /* Container About Me */
+  /*techStackComponent*/
 
-  .containerAboutMe {
+  .techStackComponent {
     @apply w-9/12 
+   flex
+   flex-col
+   align-middle
+   items-center
+   gap-6;
+  }
+
+  /* techStackItems */
+
+  .techStackItems {
+    @apply w-auto 
     flex
-    flex-col
+    flex-row
     align-middle
     items-center
     gap-3;
