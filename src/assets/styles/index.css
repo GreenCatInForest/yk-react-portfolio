@@ -13,8 +13,7 @@
   max-w-fit
   flex 
   flex-col 
-  items-center 
-  justify-center  
+  items-center
   font-poppins
   m-0;
   }
@@ -53,7 +52,8 @@
 
   .headerNav {
     @apply w-screen 
-    fixed top-0
+    fixed
+    top-0
     flex 
     flex-col 
     align-middle 
@@ -107,9 +107,11 @@
     justify-center
     gap-10
     w-11/12 
+    mt-96
     align-middle 
     items-center 
-    text-center;
+    text-center
+    sm:mt-32;
   }
 
   .heroArticle {
