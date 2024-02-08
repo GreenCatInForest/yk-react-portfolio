@@ -3,7 +3,7 @@ import { ProjectCardContainer } from "../components/Projects/ProjectCardContaine
 export const Projects = () => {
   return (
     <div id="projects" className="containerProjects">
-      <h2 className="componentTitle">Projects -&gt;</h2>
+      <h2 className="componentTitle"> Projects -&gt;</h2>
       <ProjectCardContainer />
     </div>
   );

@@ -101,6 +101,7 @@
     @apply text-3xl 
     font-semibold
     my-4
+    sm:my-10
     sm:text-2xl;
   }
 
@@ -232,27 +233,46 @@
   }
 
   /* Container Contact Me */
-
   .containerContactMe {
-    @apply w-9/12 
-  flex
-  flex-col
-  align-middle
-  items-center
-  text-center
-  gap-6;
+    @apply grid 
+    grid-flow-row-dense
+    grid-cols-1 
+    justify-items-center
+    gap-4;
+  }
+
+  .contactDirectly img {
+    @apply w-8;
   }
 
   .contactMeFeatures {
-    @apply flex
+    @apply grid 
+    grid-cols-1
+    sm:grid-cols-[50%_50%] w-full h-64   
+    gap-20
+    text-center;
+  }
+
+  .contactDirectly {
+    @apply grid 
+    text-center;
+  }
+
+  .contactPhone li {
+    @apply grid
+    grid-cols-2
+    sm:grid-cols-[40%_60%] w-56 h-64  
+    justify-items-center;
+  }
+
+  /* @apply flex
     flex-col   
     align-middle
     items-center
     sm:flex-row
     justify-around
     gap-8
-    sm:gap-32;
-  }
+    sm:gap-32; */
 
   /* Buttons */
 

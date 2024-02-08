@@ -17,7 +17,7 @@ export const App = () => {
       <Hero />
       <Projects />
       <TechStack />
-      <ContactMe />
+      <ContactMe darkMode={darkMode} />
       <Footer />
     </div>
   );
