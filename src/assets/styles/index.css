@@ -258,11 +258,14 @@
     text-center;
   }
 
-  .contactPhone li {
+  .contactDirectly ul li {
     @apply grid
-    grid-cols-2
-    sm:grid-cols-[40%_60%] w-56 h-64  
-    justify-items-center;
+    text-lg
+    grid-cols-[40%_60%] w-full h-14
+    justify-items-center
+    sm:grid-cols-[40%_60%] 
+    sm:w-56 sm:h-16 
+    sm:text-base;
   }
 
   /* @apply flex
