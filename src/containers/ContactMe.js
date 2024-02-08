@@ -4,13 +4,13 @@ import { RatingForm } from "../components/RatingForm";
 export const ContactMe = () => {
   return (
     <div id="contact" className="containerContactMe">
-      <h3 className="text-2xl font-bold">Let's work together!</h3>
+      <h3 className="componentTitle">Let's work together!</h3>
       <button className="btn-orange">Get In Touch</button>
       <ContactForm />
 
       <div className="contactMeFeatures">
         <div className="contactDirectly">
-          <h3 className="text-2xl font-bold">Contact me directly:</h3>
+          <h3 className="componentTitle">Contact me directly:</h3>
           <img alt="icon phone"></img>
           <p>phone number</p>
           <img alt="icon mail"></img>

@@ -3,9 +3,7 @@ import { SocialMedia } from "./SocialMedia";
 
 export const Hero = () => {
   return (
-    <div
-      className="containerComponent hero"
-    >
+    <div className="hero">
       <article className="heroArticle">
         <h1 className="text-5xl font-bold">
           Hello, I'm <span className="text-5xl font-bold">YANA</span>

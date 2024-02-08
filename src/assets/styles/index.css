@@ -32,10 +32,8 @@
     @apply bg-pink-400;
   } */
 
-  /* All Components Centred  */
-
   /* .containerComponent {
-    @apply mt-0 sm:mt-32;
+    @apply mt-96 sm:mt-96;
   } */
 }
 
@@ -51,7 +49,7 @@
   /* Navigation */
 
   .headerNav {
-    @apply w-screen 
+    @apply w-full 
     fixed
     top-0
     flex 
@@ -62,6 +60,7 @@
     justify-evenly
     gap-8 
     shadow-xl
+    sm:w-full
     sm:flex-row;
   }
 
@@ -98,28 +97,43 @@
 
   /* Pages */
 
+  .componentTitle {
+    @apply text-3xl 
+    font-semibold
+    my-4
+    sm:text-2xl;
+  }
+
   /* Hero */
 
   .hero {
     @apply flex
     flex-col 
-    sm:flex-row
     justify-center
-    gap-10
+    gap-12
     w-11/12 
     mt-96
     align-middle 
     items-center 
     text-center
+    sm:flex-row
+    sm:justify-evenly
+    sm:gap-0
     sm:mt-32;
   }
 
   .heroArticle {
-    @apply w-1/2 flex flex-col align-middle items-center gap-3;
+    @apply w-1/2 
+    flex 
+    flex-col 
+    align-middle 
+    items-center 
+    gap-6
+    sm:mt-24;
   }
 
   .heroImage {
-    @apply w-1/2 sm:w-1/4 shadow-xl shadow-orange-800;
+    @apply w-1/2 sm:w-1/4 shadow-xl shadow-orange-800 sm:mt-16;
   }
 
   /* Projects */
@@ -132,21 +146,11 @@
     flex-col
     align-middle
     items-center
-    gap-3;
+    gap-3
+    my-6;
   }
 
   .projectCardContainer {
-    /* @apply flex
-    flex-col
-    align-middle
-    items-center
-    text-center
-    my-4
-    sm:flex-row
-    flex-wrap
-    justify-around
-    gap-8; */
-
     @apply grid 
     grid-flow-row-dense
     text-center
@@ -202,9 +206,11 @@
     @apply w-9/12 
    flex
    flex-col
+   text-center
    align-middle
    items-center
-   gap-6;
+   gap-6
+   my-8;
   }
 
   /* techStackItems */
@@ -213,19 +219,17 @@
     @apply w-auto 
     flex
     flex-row
+    flex-wrap
+    justify-center
+    sm:flex-nowrap
     align-middle
     items-center
-    gap-3;
+    gap-10;
   }
 
-  /* .containerTitleH2 {
-    @apply py-2 
-    px-60 
-    text-lg 
-    text-center 
-    font-medium
-    shadow-xl;
-  } */
+  .techStackItems img {
+    @apply w-14;
+  }
 
   /* Container Contact Me */
 
@@ -235,6 +239,7 @@
   flex-col
   align-middle
   items-center
+  text-center
   gap-6;
   }
 
