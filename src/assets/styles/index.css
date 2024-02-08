@@ -233,6 +233,7 @@
   }
 
   /* Container Contact Me */
+
   .containerContactMe {
     @apply grid 
     grid-flow-row-dense
@@ -249,7 +250,7 @@
     @apply grid 
     grid-cols-1
     sm:grid-cols-[50%_50%] w-full h-64   
-    gap-20
+    sm:gap-20
     text-center;
   }
 
@@ -261,21 +262,26 @@
   .contactDirectly ul li {
     @apply grid
     text-lg
-    grid-cols-[40%_60%] w-full h-14
+    grid-cols-[40%_60%] w-full h-16
     justify-items-center
     sm:grid-cols-[40%_60%] 
     sm:w-56 sm:h-16 
     sm:text-base;
   }
 
-  /* @apply flex
-    flex-col   
-    align-middle
-    items-center
-    sm:flex-row
-    justify-around
-    gap-8
-    sm:gap-32; */
+  /* Rating */
+  #starRating input[type="radio"] {
+    @apply hidden;
+  }
+
+  #starRating > label {
+    @apply text-xl
+    mx-1;
+  }
+
+  /* #star-rating input[type="radio"]:checked ~ label {
+    label.inner no-repeat;
+  } */
 
   /* Buttons */
 

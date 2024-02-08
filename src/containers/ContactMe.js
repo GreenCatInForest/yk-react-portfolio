@@ -41,10 +41,7 @@ export const ContactMe = ({ darkMode }) => {
             </ul>
           )}
         </div>
-
-        <div className="ratePortfolio">
-          <RatingForm />
-        </div>
+        <RatingForm />
       </div>
     </div>
   );
