@@ -14,8 +14,8 @@ export const RatingForm = () => {
         <label htmlFor="star1">✩</label>
         <input id="star1" name="star" type="radio" value="1" />
         <div className="clear"></div>
-        <label htmlFor="feedbackRating"></label>
-        <button type="submit" className="btn-orange">
+        {/* <label htmlFor="feedbackRating"></label> */}
+        <button type="submit" className="btn-orange btnRatingForm">
           Rate Now
         </button>
       </form>

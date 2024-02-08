@@ -101,6 +101,7 @@
     @apply text-3xl 
     font-semibold
     my-4
+    text-center
     sm:my-10
     sm:text-2xl;
   }
@@ -239,7 +240,8 @@
     grid-flow-row-dense
     grid-cols-1 
     justify-items-center
-    gap-4;
+    gap-4
+    my-8;
   }
 
   .contactDirectly img {
@@ -276,12 +278,18 @@
 
   #starRating > label {
     @apply text-xl
+    px-2 py-0.5 
+    rounded-r-lg rounded-l-lg bg-orange-200
     mx-1;
   }
 
-  /* #star-rating input[type="radio"]:checked ~ label {
-    label.inner no-repeat;
-  } */
+  #star-rating input[type="radio"]:checked ~ label {
+    @apply bg-orange-600;
+  }
+
+  .btnRatingForm {
+    @apply my-6;
+  }
 
   /* Buttons */
 
@@ -305,6 +313,12 @@
 
   .socialMedia {
     @apply flex flex-row gap-2;
+  }
+
+  /* Footer */
+
+  .footer {
+    @apply mt-44 flex flex-col items-center align-middle gap-6 text-sm sm:mt-0;
   }
 }
 
