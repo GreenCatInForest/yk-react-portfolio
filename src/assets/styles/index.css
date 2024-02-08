@@ -78,7 +78,9 @@
     sm:align-middle
     sm:justify-evenly
     sm:gap-6 
-    sm:items-center;
+    sm:items-center
+    sm:text-base
+    sm:font-normal;
   }
 
   /* Nav Menu Links*/
