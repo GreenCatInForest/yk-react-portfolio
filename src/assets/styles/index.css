@@ -41,7 +41,15 @@
 }
 
 @layer components {
-  /* Nav */
+  /* Header */
+
+  #headerTitle {
+    @apply text-5xl 
+    sm:text-3xl 
+    font-bold;
+  }
+
+  /* Navigation */
 
   .headerNav {
     @apply w-screen 
