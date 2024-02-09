@@ -9,7 +9,9 @@ export const Hero = () => {
           Hello, I'm <span className="text-5xl font-bold">YANA</span>
         </h1>
         <h2>Junior Frontend Developer</h2>
-        <button className="btn-orange">Projects</button>
+        <button className="btn-orange">
+          <a href="#projects">Projects</a>
+        </button>
         <button className="btn-orange">CV</button>
         <SocialMedia />
       </article>
