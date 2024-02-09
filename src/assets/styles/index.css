@@ -314,6 +314,8 @@
 /* Utility Styles */
 
 @layer utilities {
+  /* Hamburger Menu */
+
   /* Hamburger Menu Rows */
 
   .navHumburgerMenuRow {
@@ -474,5 +476,17 @@
     after:ease-in-out 
     after:duration-500
     after:hover:bg-indigo-500;
+  }
+
+  /* Animation Darkmode Button */
+  .darkModeButton {
+    @apply bg-transparent
+    animate-[wiggle_1s_ease-in-out_infinite]
+    rounded-full
+    hover:bg-purple-500
+    hover:bg-opacity-80
+    hover:scale-100 
+    hover:ease-in-out 
+    hover:duration-500;
   }
 }

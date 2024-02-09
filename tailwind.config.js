@@ -20,6 +20,10 @@ module.exports = {
             transition: "all 2s",
           },
         },
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-6deg)" },
+          "50%": { transform: "rotate(6deg)" },
+        },
       },
     },
   },
