@@ -285,9 +285,8 @@
 
   .btn-orange {
     @apply bg-orange-600 
-    hover:bg-orange-400
+    hover:bg-purple-500
      text-white border
-      border-orange-700 
       w-40 
       h-10 
       rounded-full;
@@ -484,7 +483,7 @@
     @apply bg-transparent
     animate-[wiggle_1s_ease-in-out_infinite]
     rounded-full
-    hover:bg-gradient-to-r from-sky-100 to-purple-500
+    hover:bg-gradient-to-r from-sky-100 to-purple-600
     /* hover:bg-purple-500 */
     /* hover:bg-opacity-80
     hover:ease-in-out 
