@@ -22,7 +22,9 @@ export const Header = ({ setDarkMode, darkMode }) => {
       id="header"
       className={`headerNav ${darkMode ? "darkMode" : "lightMode"}`}
     >
-      <h1 id="headerTitle">YK</h1>
+      <a href="/">
+        <h1 id="headerTitle">YK</h1>
+      </a>
       <NavHumburgerMenu
         className={`${
           darkMode ? "darkModeHumburgerMenu" : "lightModeHumburgerMenu"
