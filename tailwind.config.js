@@ -24,6 +24,28 @@ module.exports = {
           "0%, 100%": { transform: "rotate(-6deg)" },
           "50%": { transform: "rotate(6deg)" },
         },
+
+        customPulse: {
+          "0%, 100%": {
+            opacity: "1",
+            transform: "scale(1)",
+          },
+          "50%": {
+            opacity: ".8",
+            transform: "scale(1.2)",
+          },
+        },
+
+        customBounce: {
+          "0%, 100%": {
+            transform: "translateY(-25%)",
+            animationTimingFunction: "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "translateY(0)",
+            animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
+          },
+        },
       },
     },
   },

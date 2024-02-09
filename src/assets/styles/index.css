@@ -489,4 +489,22 @@
     hover:ease-in-out 
     hover:duration-500; */;
   }
+
+  /* Animation Button */
+
+  .btn-orange {
+    @apply hover:animate-[customPulse_2s_ease-in-out_infinite];
+  }
+
+  /* Animation Tech Stack Items */
+
+  .techStackItems img {
+    @apply hover:animate-[wiggle_1s_ease-in-out_infinite];
+  }
+
+  #ReactLogo,
+  #TailwindLogo,
+  #BootstrapLogo {
+    @apply hover:animate-[rotateSlowly_2s_ease-in-out_infinite];
+  }
 }
