@@ -5,49 +5,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Caveat&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Base Styles */
+
 @layer base {
-  /* App  */
+  /* App Container */
 
   .appContainer {
-    @apply min-w-fit
-  max-w-fit
-  flex 
-  flex-col 
-  items-center
-  font-poppins
-  mx-auto
-  sm:w-full;
+    @apply min-w-fit max-w-fit flex flex-col items-center font-poppins mx-auto sm:w-full;
   }
-  /* .appContainer > * {
-    @apply mx-auto;
-  } */
 
   .lightMode {
-    @apply bg-white
-  text-black;
+    @apply bg-white text-black;
   }
 
   .darkMode {
-    @apply bg-black
-    text-white;
+    @apply bg-black text-white;
   }
-
-  /* div.appContainer > * {
-    @apply bg-pink-400;
-  } */
-
-  /* .containerComponent {
-    @apply mt-96 sm:mt-96;
-  } */
 }
+
+/* Component Styles */
 
 @layer components {
   /* Header */
 
   #headerTitle {
-    @apply text-5xl 
-    sm:text-3xl 
-    font-bold;
+    @apply text-5xl sm:text-3xl font-bold;
   }
 
   /* Navigation */
@@ -206,7 +188,7 @@
     gap-2;
   }
 
-  /*techStackComponent*/
+  /* Tech Stack Component */
 
   .techStackComponent {
     @apply w-9/12 
@@ -219,7 +201,7 @@
    my-8;
   }
 
-  /* techStackItems */
+  /* Tech Stack Items */
 
   .techStackItems {
     @apply w-auto 
@@ -276,6 +258,7 @@
   }
 
   /* Rating */
+
   #starRating input[type="radio"] {
     @apply hidden;
   }
@@ -326,18 +309,24 @@
   }
 }
 
+/* Utility Styles */
+
 @layer utilities {
+  /* Light Mode Hamburger Menu */
+
   .lightModeHumburgerMenu {
     @apply bg-black
     text-white;
   }
+
+  /* Dark Mode Hamburger Menu */
 
   .darkModeHumburgerMenu {
     @apply bg-white
     text-black;
   }
 
-  /* hamburgerMenu Light Mode */
+  /* hamburgerMenu Light Mode Open*/
 
   .hamburgerMenuOpen {
     @apply bg-black w-8 h-1 rounded
@@ -371,6 +360,8 @@
     transition-all ease-in-out
     hover:bg-indigo-500;
   }
+
+  /* hamburgerMenu Light Mode Close*/
 
   .hamburgerMenuClose {
     @apply bg-transparent
@@ -406,7 +397,7 @@
     after:hover:bg-indigo-500;
   }
 
-  /* hamburgerMenu Dark Mode */
+  /* hamburgerMenu Dark Mode Open */
 
   .hamburgerMenuOpenDarkMode {
     @apply bg-white w-8 h-1 rounded
@@ -440,6 +431,8 @@
     transition-all ease-in-out
     hover:bg-indigo-500;
   }
+
+  /* hamburgerMenu Dark Mode Close */
 
   .hamburgerMenuCloseDarkMode {
     @apply bg-transparent
