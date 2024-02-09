@@ -29,7 +29,8 @@
   /* Header */
 
   #headerTitle {
-    @apply text-5xl sm:text-3xl font-bold;
+    @apply text-5xl sm:text-3xl font-bold 
+    /* hover:transform hover:scale-110"; */;
   }
 
   /* Navigation */
@@ -272,9 +273,9 @@
     mx-1;
   }
 
-  #star-rating input[type="radio"]:checked ~ label {
+  /* #star-rating input[type="radio"]:checked ~ label {
     @apply bg-orange-600;
-  }
+  } */
 
   .btnRatingForm {
     @apply my-6;

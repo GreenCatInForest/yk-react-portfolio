@@ -5,7 +5,7 @@ import CVDocument from "../assets/downloads/CV_Front_End_Developer_Engineer.pdf"
 
 export const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero ">
       <article className="heroArticle">
         <h1 className="text-5xl font-bold">
           Hello, I'm <span className="text-5xl font-bold">YANA</span>
