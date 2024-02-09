@@ -314,6 +314,12 @@
 /* Utility Styles */
 
 @layer utilities {
+  /* Hamburger Menu Rows */
+
+  .navHumburgerMenuRow {
+    @apply text-3xl cursor-pointer relative w-8 h-8;
+  }
+
   /* Light Mode Hamburger Menu */
 
   .lightModeHumburgerMenu {

@@ -5,19 +5,13 @@ export const NavHumburgerMenu = ({
 }) => {
   if (!hamburgerMenuIsOpen && !darkMode) {
     return (
-      <button
-        onClick={toggleHamburgerMenu}
-        className="text-3xl cursor-pointer relative w-8 h-8"
-      >
+      <button onClick={toggleHamburgerMenu} className="navHumburgerMenuRow">
         <div className="hamburgerMenuOpen"></div>
       </button>
     );
   } else if (!hamburgerMenuIsOpen && darkMode) {
     return (
-      <button
-        onClick={toggleHamburgerMenu}
-        className="text-3xl cursor-pointer relative w-8 h-8"
-      >
+      <button onClick={toggleHamburgerMenu} className="navHumburgerMenuRow">
         <div className="hamburgerMenuOpenDarkMode"></div>
       </button>
     );
@@ -39,7 +33,7 @@ export const NavHumburgerMenu = ({
           </li>
           <button
             onClick={toggleHamburgerMenu}
-            className="hamburgerMenuClose text-3xl cursor-pointer relative w-8 h-8"
+            className="hamburgerMenuClose navHumburgerMenuRow"
           ></button>
         </ul>
       </nav>
@@ -63,7 +57,7 @@ export const NavHumburgerMenu = ({
           <li>
             <button
               onClick={toggleHamburgerMenu}
-              className="hamburgerMenuCloseDarkMode text-3xl cursor-pointer relative w-8 h-8"
+              className="hamburgerMenuCloseDarkMode navHumburgerMenuRow"
             ></button>
           </li>
         </ul>
