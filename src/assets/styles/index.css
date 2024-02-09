@@ -35,44 +35,28 @@
   /* Navigation */
 
   .headerNav {
-    @apply fixed
+    @apply w-4/6
+    fixed
     top-0
     flex 
     flex-col 
     align-middle 
     items-center
-    py-6 
+    py-6
     justify-evenly
     gap-8 
     shadow-xl
     sm:w-fit
+    sm:gap-16
     sm:px-96
     sm:flex-row;
-  }
-
-  .headerNavContainer {
-    @apply flex 
-    flex-col
-    justify-center
-    items-center
-    space-x-0 
-    gap-6
-    text-2xl 
-    sm:flex-row
-    sm:space-x-3 
-    sm:align-middle
-    sm:justify-evenly
-    sm:gap-6 
-    sm:items-center
-    sm:text-base
-    sm:font-normal;
   }
 
   /* Nav Menu Links*/
 
   ul.headerNavContainer > li {
     @apply border-b-4 border-white border-opacity-0
-    text-center py-3 pb-1
+    text-center py-3 pb-1 px-5
     hover:border-orange-500 
     transition-all ease-in-out duration-700;
   }
