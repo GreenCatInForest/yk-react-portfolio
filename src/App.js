@@ -8,6 +8,8 @@ import { Hero } from "./components/Hero";
 import { TechStack } from "./components/TechStack";
 import { Footer } from "./components/Footer";
 
+// import { TestAnimationComponent } from "./components/TestAnimationComponent";
+
 export const App = () => {
   const [darkMode, setDarkMode] = useState(false);
 
@@ -19,6 +21,7 @@ export const App = () => {
       <TechStack />
       <ContactMe darkMode={darkMode} />
       <Footer />
+      {/* <TestAnimationComponent /> */}
     </div>
   );
 };
