@@ -1,7 +1,10 @@
 import { useState } from "react";
+
 import { NavHumburgerMenu } from "./NavHumbergerMenu";
+
 import DarkModeImage from "../assets/images/icons8-dark-mode-50.png";
 import LightModeImage from "../assets/images/icons8-light-mode-50.png";
+import CVDocument from "../assets/downloads/CV_Front_End_Developer_Engineer.pdf";
 
 export const Header = ({ setDarkMode, darkMode }) => {
   const [hamburgerMenuIsOpen, setHamburgerMenuIsOpen] = useState(false);
@@ -41,7 +44,9 @@ export const Header = ({ setDarkMode, darkMode }) => {
         )}
       </button>
       <button className="btn-orange">
-        <a href="#downloadCv">Download CV</a>
+        <a href={CVDocument} target="_blank" rel="noopener noreferrer">
+          Download CV
+        </a>
       </button>
     </div>
   );
