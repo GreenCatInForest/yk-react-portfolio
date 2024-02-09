@@ -52,6 +52,24 @@
     sm:flex-row;
   }
 
+  .headerNavContainer {
+    @apply flex 
+    flex-col
+    justify-center
+    items-center
+    space-x-0 
+    gap-6
+    text-2xl 
+    sm:flex-row
+    sm:space-x-3 
+    sm:align-middle
+    sm:justify-evenly
+    sm:gap-6 
+    sm:items-center
+    sm:text-base
+    sm:font-normal;
+  }
+
   /* Nav Menu Links*/
 
   ul.headerNavContainer > li {
