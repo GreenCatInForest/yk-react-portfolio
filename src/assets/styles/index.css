@@ -15,8 +15,12 @@
   flex-col 
   items-center
   font-poppins
-  m-0;
+  mx-auto
+  sm:w-full;
   }
+  /* .appContainer > * {
+    @apply mx-auto;
+  } */
 
   .lightMode {
     @apply bg-white
@@ -49,18 +53,18 @@
   /* Navigation */
 
   .headerNav {
-    @apply w-full 
-    fixed
+    @apply fixed
     top-0
     flex 
     flex-col 
     align-middle 
     items-center
-    p-6 
+    py-6 
     justify-evenly
     gap-8 
     shadow-xl
-    sm:w-full
+    sm:w-fit
+    sm:px-96
     sm:flex-row;
   }
 
