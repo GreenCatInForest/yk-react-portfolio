@@ -124,7 +124,7 @@
   }
 
   .heroImage {
-    @apply w-1/2 sm:w-1/4 shadow-xl shadow-orange-800 sm:mt-16;
+    @apply w-11/12 ms-24 sm:w-1/2 sm:mt-16;
   }
 
   /* Projects */

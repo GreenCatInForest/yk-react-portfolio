@@ -1,6 +1,9 @@
 import { SocialMedia } from "./SocialMedia";
 
-import bioImg from "../assets/images/Untitled3.png";
+// import bioImg from "../assets/images/Untitled3.png";
+import bioImg from "../assets/images/Group11.png";
+// import bioImg from "../assets/images/Group3.png";
+
 import CVDocument from "../assets/downloads/CV_Front_End_Developer_Engineer.pdf";
 
 export const Hero = () => {
