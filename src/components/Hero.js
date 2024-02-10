@@ -14,7 +14,7 @@ export const Hero = () => {
         <h1 className="text-5xl font-bold">
           Hello, I'm <span className="text-5xl font-bold">YANA</span>
         </h1>
-        <h2>Junior Frontend Developer</h2>
+        <h2>Aspiring JS & React Developer</h2>
         <button className="btn-orange">
           <a href="#projects">Projects</a>
         </button>
@@ -25,7 +25,6 @@ export const Hero = () => {
         </button>
         <SocialMedia />
       </article>
-
       <img src={bioImg} alt="my large avatar" className="heroImage" />
       <div className="heroLogoContainer">
         <img src={JsLogo} alt="JS logo near the avatar" id="heroJSLogo" />

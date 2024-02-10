@@ -8,6 +8,7 @@ module.exports = {
       },
       animation: {
         rotateSlowly: "rotateSlowly 5s linear infinite",
+        orbit: "orbit 5s ease-in-out infinite",
       },
       keyframes: {
         rotateSlowly: {
@@ -45,6 +46,26 @@ module.exports = {
             transform: "translateY(0)",
             animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
           },
+        },
+        orbit: {
+          "0%": {
+            transform: "translateX(10%) translateY(-60%)",
+          },
+          "50%": {
+            transform: "translateX(60%) translateY(0)",
+          },
+          "100%": {
+            transform: "translateX(10%) translateY(-60%)",
+          },
+          // "50%": {
+          //   transform: "translateX(50%) translateY(-60%)",
+          // },
+          // "75%": {
+          //   transform: "translateX(80%) translateY(0)",
+          // },
+          // "100%": {
+          //   transform: "translateX(0) translateY(-60%)",
+          // },
         },
       },
     },

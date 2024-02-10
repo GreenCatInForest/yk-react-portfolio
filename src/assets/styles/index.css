@@ -131,13 +131,15 @@
     @apply absolute;
   }
 
-  .heroLogoContainer #heroJSLogo {
-    @apply relative 
+  #heroJSLogo {
+    @apply relative
     rounded-full
-    w-24;
+    w-24
+    transition-all
+    duration-300;
   }
 
-  .heroLogoContainer #heroReactLogo {
+  #heroReactLogo {
     @apply relative
     w-24;
   }
@@ -522,5 +524,9 @@
   #TailwindLogo,
   #BootstrapLogo {
     @apply hover:animate-[rotateSlowly_2s_ease-in-out_infinite];
+  }
+
+  #heroJSLogo {
+    @apply animate-[orbit_4s_ease-in-out_infinite];
   }
 }
