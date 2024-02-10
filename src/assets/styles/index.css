@@ -127,6 +127,20 @@
     @apply w-11/12 ms-24 sm:w-1/2 sm:mt-16;
   }
 
+  .heroLogoContainer {
+    @apply absolute;
+  }
+
+  .heroLogoContainer #heroJSLogo {
+    @apply relative 
+    w-24;
+  }
+
+  .heroLogoContainer #heroReactLogo {
+    @apply relative
+    w-24;
+  }
+
   /* Projects */
 
   /* Container Projects */
