@@ -215,7 +215,8 @@
     sm:flex-nowrap
     align-middle
     items-center
-    gap-10;
+    gap-10
+    sm:w-20;
   }
 
   .techStackItems img {
