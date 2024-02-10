@@ -134,7 +134,25 @@
   #heroJSLogo {
     @apply relative
     rounded-full
+    w-16
+    top-60
+    -left-24
+    sm:w-24;
+  }
+
+  #heroReactLogo {
+    @apply relative
     w-24
+    top-72
+    -right-28
+    sm:w-24;
+  }
+
+  /* #heroJSLogo {
+    @apply relative
+    rounded-full
+    w-14
+    sm:w-16
     transition-all
     duration-300;
   }
@@ -142,7 +160,7 @@
   #heroReactLogo {
     @apply relative
     w-24;
-  }
+  } */
 
   /* Projects */
 
@@ -527,6 +545,10 @@
   }
 
   #heroJSLogo {
-    @apply animate-[orbit_4s_ease-in-out_infinite];
+    @apply animate-[customBounce_1s_linear_infinite];
+  }
+
+  #heroReactLogo {
+    @apply hover:animate-[rotateSlowly_2s_linear_infinite];
   }
 }

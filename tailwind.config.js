@@ -47,12 +47,13 @@ module.exports = {
             animationTimingFunction: "cubic-bezier(0, 0, 0.2, 1)",
           },
         },
+
         orbit: {
           "0%": {
             transform: "translateX(10%) translateY(-60%)",
           },
           "50%": {
-            transform: "translateX(60%) translateY(0)",
+            transform: "translateX(80%) translateY(20%)",
           },
           "100%": {
             transform: "translateX(10%) translateY(-60%)",
