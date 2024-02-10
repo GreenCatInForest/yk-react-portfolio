@@ -138,7 +138,6 @@
     top-60
     -left-24
     sm:w-20
-    /* sm:top-10 */
     sm:-top-10
     sm:left-12;
   }
@@ -149,8 +148,8 @@
     top-72
     -right-28
     sm:w-24
-    sm:top-24
-    sm:left-72;
+    sm:top-32
+    sm:left-80;
   }
 
   /* Projects */
@@ -541,7 +540,7 @@
   }
 
   #heroReactLogo {
-    @apply /* animate-[rotateSlowly_8s_linear_infinite] */
+    @apply animate-[rotateSlowly_8s_linear_infinite]
     hover:animate-[rotateSlowly_2s_linear_infinite];
   }
 }
