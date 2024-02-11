@@ -3,6 +3,7 @@ import happyRecipesProjectBannerImg from "../../assets/images/projectBannerImg/h
 import wordCounterProjectBannerImg from "../../assets/images/projectBannerImg/wordCounterCardBanner.png";
 import counterProjectBannerImg from "../../assets/images/projectBannerImg/counterCardBanner.png";
 import loginAppProjectCardBannerImg from "../../assets/images/projectBannerImg/loginAppProjectCardBanner.png";
+import githubSerchProjectCardBannerImg from "../../assets/images/projectBannerImg/githubSerchProjectCardBannerImg.png";
 
 let projectDatas = [
   {
@@ -44,7 +45,15 @@ let projectDatas = [
     projectDeployUrl: "https://login-app-khaki-sigma.vercel.app",
     projectGitUrl: "https://github.com/GreenCatInForest/login-app",
   },
-  {},
+  {
+    projectBannerImg: githubSerchProjectCardBannerImg,
+    projectTitle: "GitHub Search App",
+    projectSubTitle: "The app allows user to find any repo",
+    projectDescription:
+      "This interactive app allows the user to enter a name of organisation or a username and to receive a list of related Github repositories. App created to show an example of using Fetch API, a useState and useEffect hooks in React.",
+    projectDeployUrl: "https://search-github-repos-app.vercel.app/",
+    projectGitUrl: "https://github.com/GreenCatInForest/login-app",
+  },
 ];
 
 console.log(projectDatas);
