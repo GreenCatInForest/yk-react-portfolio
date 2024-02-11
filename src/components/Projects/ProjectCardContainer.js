@@ -52,7 +52,8 @@ let projectDatas = [
     projectDescription:
       "This interactive app allows the user to enter a name of organisation or a username and to receive a list of related Github repositories. App created to show an example of using Fetch API, a useState and useEffect hooks in React.",
     projectDeployUrl: "https://search-github-repos-app.vercel.app/",
-    projectGitUrl: "https://github.com/GreenCatInForest/login-app",
+    projectGitUrl:
+      "https://github.com/GreenCatInForest/search-github-repos-app",
   },
 ];
 
