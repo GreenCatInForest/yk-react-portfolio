@@ -4,6 +4,7 @@ import wordCounterProjectBannerImg from "../../assets/images/projectBannerImg/wo
 import counterProjectBannerImg from "../../assets/images/projectBannerImg/counterCardBanner.png";
 import loginAppProjectCardBannerImg from "../../assets/images/projectBannerImg/loginAppProjectCardBanner.png";
 import githubSerchProjectCardBannerImg from "../../assets/images/projectBannerImg/githubSerchProjectCardBannerImg.png";
+import findYourJsChallengeBannerImg from "../../assets/images/projectBannerImg/findYourJsChallengeBannerImg.png";
 
 let projectDatas = [
   {
@@ -15,6 +16,27 @@ let projectDatas = [
       "Interactive app for people to search for an ingredient and choose recipies they can save and come back later.",
     projectDeployUrl: "https://recipe-search-app-lovat.vercel.app/",
     projectGitUrl: "https://github.com/GreenCatInForest/recipe-search-app",
+  },
+  {
+    projectBannerImg: githubSerchProjectCardBannerImg,
+    projectTitle: "GitHub Search App",
+    projectSubTitle: "The app allows user to find any repo",
+    projectDescription:
+      "This interactive app allows the user to enter a name of organisation or a username and to receive a list of related Github repositories. App created to show an example of using Fetch API, a useState and useEffect hooks in React.",
+    projectDeployUrl: "https://search-github-repos-app.vercel.app/",
+    projectGitUrl:
+      "https://github.com/GreenCatInForest/search-github-repos-app",
+  },
+  {
+    projectBannerImg: findYourJsChallengeBannerImg,
+    projectTitle: "Search JavaScript Challenges App",
+    projectSubTitle:
+      "This interactive app allows user to find modern JavaScript challenges",
+    projectDescription:
+      "App created to help users to find modern JavaScript challenges. The user can type a keyword and the app will show a list of related challenges. App created to show an example of using data.json, a useState and useEffect hooks in React.",
+    projectDeployUrl: "https://choose-your-challenge-app.vercel.app/",
+    projectGitUrl:
+      "https://github.com/GreenCatInForest/choose-your-challenge-app",
   },
   {
     projectBannerImg: counterProjectBannerImg,
@@ -44,16 +66,6 @@ let projectDatas = [
       "The user can type a login and a password, the generated page is dynamically updated. In case of error the app throws an alert",
     projectDeployUrl: "https://login-app-khaki-sigma.vercel.app",
     projectGitUrl: "https://github.com/GreenCatInForest/login-app",
-  },
-  {
-    projectBannerImg: githubSerchProjectCardBannerImg,
-    projectTitle: "GitHub Search App",
-    projectSubTitle: "The app allows user to find any repo",
-    projectDescription:
-      "This interactive app allows the user to enter a name of organisation or a username and to receive a list of related Github repositories. App created to show an example of using Fetch API, a useState and useEffect hooks in React.",
-    projectDeployUrl: "https://search-github-repos-app.vercel.app/",
-    projectGitUrl:
-      "https://github.com/GreenCatInForest/search-github-repos-app",
   },
 ];
 
