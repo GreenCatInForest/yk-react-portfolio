@@ -71,8 +71,6 @@ let projectDatas = [
 
 console.log(projectDatas);
 
-// projectDatas.map((projectData) => ({}))
-
 export const ProjectCardContainer = () => {
   return (
     <div className="projectCardContainer">
