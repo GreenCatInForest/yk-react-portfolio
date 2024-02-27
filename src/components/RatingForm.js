@@ -21,7 +21,6 @@ export const RatingForm = () => {
 
   const handleSubmit = () => {
     setIsSubmitted(true);
-    alert(`You have rated: ${rating}`);
   };
 
   return (
@@ -43,9 +42,13 @@ export const RatingForm = () => {
           onMouseLeave={() => handleStarHover(0)}
         />
       ))}
-      {!isSubmitted && (
+      {!isSubmitted ? (
         <button onClick={handleSubmit} className="btn-orange btnRatingForm">
           Rate Now
+        </button>
+      ) : (
+        <button className="btnRatingFormResult">
+          Thank you for your rating {rating}!{" "}
         </button>
       )}
     </div>
