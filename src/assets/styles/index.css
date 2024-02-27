@@ -38,6 +38,7 @@
   .headerNav {
     @apply w-4/6
     fixed
+    sm:static
     top-0
     flex 
     flex-col 
