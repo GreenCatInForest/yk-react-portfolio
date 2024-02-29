@@ -1,7 +1,21 @@
 export const ContactForm = () => {
+  const contactHandler = (e) => {
+    e.preventDefault();
+    let contactData = {
+      contactName: e.target.name.value,
+      contactCompany: e.target.company.value,
+      contactEmail: e.target.email.value,
+      contactTel: e.target.tel.value,
+      contactSubject: e.target.subject.value,
+      contactMessage: e.target.message.value,
+    };
+    console.log(contactData);
+  };
+
   return (
     <div>
       <form
+        onSubmit={contactHandler}
         action=""
         method="get"
         className="flex flex-col text-center items-center gap-3 rows-4 cols-40 border-2 p-8"
