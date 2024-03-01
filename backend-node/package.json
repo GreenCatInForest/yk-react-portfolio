@@ -1,0 +1,22 @@
+{
+  "name": "backend-node",
+  "version": "1.0.0",
+  "description": "A backend server built with Node.js and Express for handling form submissions from a React.js frontend for YK-React-Portfolio",
+  "main": "index-backend.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GreenCatInForest/yk-react-portfolio.git"
+  },
+  "author": "Yana Kozarenko <yanakozarenko2022@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreenCatInForest/yk-react-portfolio/issues"
+  },
+  "homepage": "https://github.com/GreenCatInForest/yk-react-portfolio#readme",
+  "dependencies": {
+    "express": "^4.18.3"
+  }
+}
