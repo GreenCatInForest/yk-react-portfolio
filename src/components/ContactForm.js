@@ -1,6 +1,7 @@
 export const ContactForm = () => {
   const contactHandler = (e) => {
     e.preventDefault();
+
     let contactData = {
       contactName: e.target.name.value,
       contactCompany: e.target.company.value,
@@ -9,15 +10,36 @@ export const ContactForm = () => {
       contactSubject: e.target.subject.value,
       contactMessage: e.target.message.value,
     };
-    console.log(contactData);
+
+    fetch("/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(contactData),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.text();
+      })
+      .then((contactData) => {
+        console.log(`Form submission successful: ${contactData}`);
+        e.target.reset();
+      })
+      .catch((error) => {
+        console.error("Error during form submission:", error);
+      });
   };
 
   return (
     <div>
       <form
         onSubmit={contactHandler}
-        action=""
-        method="get"
+        action="/submit"
+        method="POST"
+        enctype="application/x-www-form-urlencoded"
         className="flex flex-col text-center items-center gap-3 rows-4 cols-40 border-2 p-8"
       >
         <label htmlFor="name">Name</label>
