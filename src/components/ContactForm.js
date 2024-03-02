@@ -11,7 +11,7 @@ export const ContactForm = () => {
       contactMessage: e.target.message.value,
     };
 
-    fetch("/submit", {
+    fetch("/api/submit", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -37,7 +37,7 @@ export const ContactForm = () => {
     <div>
       <form
         onSubmit={contactHandler}
-        action="/submit"
+        action="/api/submit"
         method="POST"
         enctype="application/x-www-form-urlencoded"
         className="flex flex-col text-center items-center gap-3 rows-4 cols-40 border-2 p-8"
