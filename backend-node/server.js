@@ -17,12 +17,25 @@ app.use((req, res, next) => {
 });
 
 const sendEmail = (dataSent) => {
+  console.log("dataSent", dataSent);
   const msg = {
-    to: "yanakozarenko2022@gmail.com", // Change to your recipient
-    from: "yanaportfoliofullstack@gmail.com", // Change to your verified sender
-    subject: "Sending with SendGrid is Fun",
-    text: `and easy to do anywhere, even with Node.js ${dataSent}`,
-    html: "<strong>and easy to do anywhere, even with Node.js</strong>",
+    to: "yanakozarenko2022@gmail.com", //  recipient
+    from: "yanaportfoliofullstack@gmail.com", // verified sender
+    subject: "New message from portfolio contact form",
+    text: `
+    Name: ${dataSent.contactName}
+    Company: ${dataSent.contactCompany}
+    Email: ${dataSent.contactEmail}
+    Tel: ${dataSent.contactTel}
+    Subject: ${dataSent.contactSubject}
+    Message: ${dataSent.contactMessage}`,
+    html: `
+    <strong>Name:</strong> ${dataSent.contactName}
+    <strong>Company:</strong> ${dataSent.contactCompany}
+    <strong>Email:</strong> ${dataSent.contactEmail}
+    Tel: ${dataSent.contactTel}
+    <strong>Subject:</strong> ${dataSent.contactSubject}
+    <strong>Message:</strong> ${dataSent.contactMessage}`,
   };
   sgMail
     .send(msg)
@@ -42,6 +55,7 @@ app.get("*", (req, res) => {
 app.post("/submit", async (req, res) => {
   console.log(new Date().toISOString(), "POST /submit", req.body);
   const dataSent = req.body;
+  console.log("dataSent", dataSent);
   try {
     await sendEmail(dataSent);
     res.status(200).json({ message: "Email sent" });
