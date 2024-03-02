@@ -22,7 +22,7 @@ export const ContactForm = () => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
-        return response.text();
+        return response.json();
       })
       .then((contactData) => {
         console.log(`Form submission successful: ${contactData}`);
