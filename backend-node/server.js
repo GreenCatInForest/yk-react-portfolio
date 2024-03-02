@@ -1,5 +1,8 @@
 const express = require("express");
-const sendEmail = require("./sendEmail");
+
+require("dotenv").config();
+const sgMail = require("@sendgrid/mail");
+sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 const app = express();
 const path = require("path");
@@ -13,6 +16,24 @@ app.use((req, res, next) => {
   next();
 });
 
+const sendEmail = (dataSent) => {
+  const msg = {
+    to: "yanakozarenko2022@gmail.com", // Change to your recipient
+    from: "yanaportfoliofullstack@gmail.com", // Change to your verified sender
+    subject: "Sending with SendGrid is Fun",
+    text: `and easy to do anywhere, even with Node.js ${dataSent}`,
+    html: "<strong>and easy to do anywhere, even with Node.js</strong>",
+  };
+  sgMail
+    .send(msg)
+    .then(() => {
+      console.log("Email sent");
+    })
+    .catch((error) => {
+      console.error(error);
+    });
+};
+
 app.use(express.static(path.join(__dirname, "../build")));
 app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../build", "index.html"));
@@ -20,10 +41,10 @@ app.get("*", (req, res) => {
 
 app.post("/submit", async (req, res) => {
   console.log(new Date().toISOString(), "POST /submit", req.body);
+  const dataSent = req.body;
   try {
-    const result = await sendEmail(req.body);
-    console.log("Email sent:", result);
-    res.json({ message: "Email sent", result: result });
+    await sendEmail(dataSent);
+    res.status(200).json({ message: "Email sent" });
   } catch (error) {
     console.error("Error sending email:", error);
     res.status(500).json({ message: "Error sending email", error: error });
