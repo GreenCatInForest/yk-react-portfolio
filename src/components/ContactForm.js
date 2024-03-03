@@ -47,6 +47,7 @@ export const ContactForm = () => {
           type="text"
           name="name"
           id="name"
+          autocomplete="given-name"
           required
           className="border-2 border-orange-600"
         />
@@ -55,6 +56,7 @@ export const ContactForm = () => {
         <input
           type="text"
           name="company"
+          autocomplete="organization"
           id="company"
           className="border-2 border-orange-600"
         />
@@ -64,6 +66,7 @@ export const ContactForm = () => {
           type="email"
           name="email"
           id="email"
+          autocomplete="email"
           className="border-2 border-orange-600"
         />
 
@@ -72,6 +75,7 @@ export const ContactForm = () => {
           type="tel"
           name="tel"
           id="tel"
+          autocomplete="tel"
           className="border-2 border-orange-600"
         />
 
