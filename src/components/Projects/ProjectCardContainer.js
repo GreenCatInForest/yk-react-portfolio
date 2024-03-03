@@ -5,6 +5,7 @@ import counterProjectBannerImg from "../../assets/images/projectBannerImg/counte
 import loginAppProjectCardBannerImg from "../../assets/images/projectBannerImg/loginAppProjectCardBanner.png";
 import githubSerchProjectCardBannerImg from "../../assets/images/projectBannerImg/githubSerchProjectCardBannerImg.png";
 import findYourJsChallengeBannerImg from "../../assets/images/projectBannerImg/findYourJsChallengeBannerImg.png";
+import JSShowcastProjectCardBannerImg from "../../assets/images/projectBannerImg/JSShowcastProjectCardBannerImg.png";
 
 let projectDatas = [
   {
@@ -66,6 +67,25 @@ let projectDatas = [
       "The user can type a login and a password, the generated page is dynamically updated. In case of error the app throws an alert",
     projectDeployUrl: "https://login-app-khaki-sigma.vercel.app",
     projectGitUrl: "https://github.com/GreenCatInForest/login-app",
+  },
+  {
+    projectBannerImg: loginAppProjectCardBannerImg,
+    projectTitle: "Login App",
+    projectSubTitle: "The app allows user to login to the app with validation",
+    projectDescription:
+      "The user can type a login and a password, the generated page is dynamically updated. In case of error the app throws an alert",
+    projectDeployUrl: "https://login-app-khaki-sigma.vercel.app",
+    projectGitUrl: "https://github.com/GreenCatInForest/login-app",
+  },
+  {
+    projectBannerImg: JSShowcastProjectCardBannerImg,
+    projectTitle: "Pure JavaScript, CSS and HTML",
+    projectSubTitle:
+      "The app shows the list of JS challenges and some fancy animations",
+    projectDescription:
+      "The user can see an example of using pure JavaScript, CSS and HTML to create a list of challenges and animations",
+    projectDeployUrl: "https://greencatinforest.github.io/showcase-pure-js/",
+    projectGitUrl: "https://github.com/GreenCatInForest/showcase-pure-js",
   },
 ];
 
